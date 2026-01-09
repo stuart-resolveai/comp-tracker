@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comp_Plan__c</fullName>
+    <label>Comp Plan</label>
+    <type>Lookup</type>
+    <referenceTo>Comp_Plan__c</referenceTo>
+    <relationshipLabel>Comp Statements</relationshipLabel>
+    <relationshipName>Comp_Statements</relationshipName>
+    <required>false</required>
+</CustomField>

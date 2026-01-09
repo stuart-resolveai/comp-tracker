@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved_By__c</fullName>
+    <label>Approved By</label>
+    <type>Lookup</type>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Approved Statements</relationshipLabel>
+    <relationshipName>Approved_Statements</relationshipName>
+    <required>false</required>
+</CustomField>

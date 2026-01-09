@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Type__c</fullName>
+    <label>Record Type</label>
+    <type>Picklist</type>
+    <required>true</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AE_Booking</fullName>
+                <default>true</default>
+                <label>AE Booking</label>
+            </value>
+            <value>
+                <fullName>SDR_Source</fullName>
+                <default>false</default>
+                <label>SDR Source</label>
+            </value>
+            <value>
+                <fullName>SE_Overlay</fullName>
+                <default>false</default>
+                <label>SE Overlay</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

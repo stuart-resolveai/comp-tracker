@@ -131,6 +131,10 @@ function localApiMiddleware() {
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), localApiMiddleware()],
+  server: {
+    port: 8080,
+    strictPort: true,
+  },
   build: {
     rollupOptions: {
       output: {
